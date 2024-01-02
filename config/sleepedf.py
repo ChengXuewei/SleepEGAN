@@ -40,7 +40,7 @@ params = {
 train = params.copy()
 train.update({
     "seq_length": 20,
-    "batch_size": ,
+    "batch_size": 8,
 })
 
 predict = params.copy()
